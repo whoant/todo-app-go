@@ -3,7 +3,7 @@ services:
   todo-service:
     build:
         context: .
-        dockerfile: ./deployments/docker/Dockerfile
+        dockerfile: deployments/docker/local.Dockerfile
     ports:
       - '8080:8080'
     volumes:
